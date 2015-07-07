@@ -37,7 +37,7 @@ import java.util.Scanner;
        {
        if(ch==1)
             {
-        System.out.println("1. NEW ACCOUNT");
+        System.out.println("1. ENTER NEW ACCOUNT DETAILS");
         System.out.println("2. SELECT ACCOUNT NO");
         System.out.println("3. CLOSE ACCOUNT");
         System.out.println("4. DEPOSIT");
@@ -190,8 +190,8 @@ import java.util.Scanner;
         } // end of menu loop
             else if(ch==2)
             {
-                System.out.println("1 Create account");
-              System.out.println("2.SELECT ACCOUNT NO");
+        System.out.println("1 ENTER NEW ACCOUNT DETAILS");
+        System.out.println("2.SELECT ACCOUNT NO");
         System.out.println("3.CLOSE ACCOUNT");
         System.out.println("4.DEPOSIT");
         System.out.println("5. WITHDRAW");
@@ -321,12 +321,12 @@ import java.util.Scanner;
             else
             {
                 
-            
-        System.out.println("1. SELECT ACCOUNT");
-        System.out.println("2. CLOSE ACCOUNT NO");
-        System.out.println("3. DEPOSIT");
-        System.out.println("4. WITHDRAW");
-        System.out.println("5.CHECK BAL IN SELECT ACCOUNT");
+        System.out.println("1. ENTER NEW ACCOUNT DETAILS");    
+        System.out.println("2. SELECT ACCOUNT");
+        System.out.println("3. CLOSE ACCOUNT NO");
+        System.out.println("4. DEPOSIT");
+        System.out.println("5. WITHDRAW");
+        System.out.println("6.CHECK BAL IN SELECT ACCOUNT");
         System.out.println("You have to select account no before performing operation");
               int ch1=scan.nextInt(); 
               switch(ch1)
